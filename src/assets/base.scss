@@ -1,0 +1,11 @@
+//超出打点
+@mixin nowrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin common-text {
+  font-size: 12px;
+  color: #797d82;
+}
